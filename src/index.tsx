@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GuestList from './state/GuestList';
-import Usersearch from './state/Usersearch';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <GuestList /> */}
-    <Usersearch />
+
+  <App />
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
